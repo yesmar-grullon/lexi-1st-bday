@@ -1,12 +1,12 @@
 
 @font-face {
     font-family: 'Moana';
-    src: url('assets/media/fonts/Moanas.ttf') format('truetype');
+    src: url('/lexi-1st-bday/assets/media/fonts/Moanas-jonnas.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Moana-jonnas';
-    src: url('assets/media/fonts/Moanas-jonnas.ttf') format('truetype');
+    src: url('/lexi-1st-bday/assets/media/fonts/Moanas-jonnas.ttf') format('truetype');
 }
 
 h1{
