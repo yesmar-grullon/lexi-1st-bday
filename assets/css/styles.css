@@ -9,6 +9,16 @@
     src: url('/lexi-1st-bday/assets/media/fonts/Moanas-jonnas.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Moana';
+    src: url('/assets/media/fonts/Moanas-jonnas.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Moana-jonnas';
+    src: url('/assets/media/fonts/Moanas-jonnas.ttf') format('truetype');
+}
+
 h1{
     opacity: 1;
 }
@@ -35,4 +45,10 @@ h1{
     width: 100%;
     height: auto;
     border: 0;
+}
+.bg-sand {
+    background-image: url('/assets/media/images/beach-png-41219.png');
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-position: center left;
 }
