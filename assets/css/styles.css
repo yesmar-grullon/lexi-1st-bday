@@ -46,9 +46,11 @@ h1{
 .mw-400px {
     max-width: 400px;
 }
+
 .w-120px {
     width: 120px;
 }
+
 .ff-moana {
     font-family: 'Moana','Moana-jonnas',sans-serif;
 }
@@ -68,16 +70,18 @@ h1{
     height: auto;
     border: 0;
 }
+
 .bg-sand {
     background-image: url('/assets/media/images/beach-png-41219.png');
     background-repeat: no-repeat;
     background-size: fill;
     background-position: center left;
 }
+
 .circular--portrait { 
     position: relative; 
-    width: 320px; 
-    height: 320px; 
+    width: 100vw; 
+    height: 100vw; 
     overflow: hidden; 
     border-radius: 50%; 
 } 
@@ -85,5 +89,15 @@ h1{
 .circular--portrait img { 
     width: 100%; 
     height: auto; 
-    margin-top:-100px;
+    margin-top:-20vw;
+}
+
+@media (min-width: 576px){
+    .circular--portrait { 
+        width: 30vw; 
+        height: 30vw;
+    }
+    .circular--portrait img { 
+        margin-top: -7vw;
+    }
 }
