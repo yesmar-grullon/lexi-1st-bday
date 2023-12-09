@@ -1,0 +1,76 @@
+
+@font-face {
+    font-family: 'Moana';
+    src: url('/lexi-1st-bday/assets/media/fonts/Moanas-jonnas.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Moana-jonnas';
+    src: url('/lexi-1st-bday/assets/media/fonts/Moanas-jonnas.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Moana';
+    src: url('/assets/media/fonts/Moanas-jonnas.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Moana-jonnas';
+    src: url('/assets/media/fonts/Moanas-jonnas.ttf') format('truetype');
+}
+
+h1{
+    opacity: 1;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.mh-200px {
+    max-height: 200px;
+}
+
+.mh-100px {
+    max-height: 100px;
+}
+
+.mw-600px {
+    max-width: 600px;
+}
+
+.mw-500px {
+    max-width: 500px;
+}
+
+.mw-400px {
+    max-width: 400px;
+}
+.w-120px {
+    width: 120px;
+}
+.ff-moana {
+    font-family: 'Moana','Moana-jonnas',sans-serif;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 41.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-video {
+    position: absolute;
+    top: -18%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    border: 0;
+}
+.bg-sand {
+    background-image: url('/assets/media/images/beach-png-41219.png');
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-position: center left;
+}
