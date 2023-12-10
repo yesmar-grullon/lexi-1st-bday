@@ -34,3 +34,8 @@
   }
 }
 
+@mixin dynwidths($size-list) {
+  @each $size in $size-list {
+    @include width-class($size)
+  }
+}

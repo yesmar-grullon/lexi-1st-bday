@@ -31,28 +31,35 @@ h1{
     bottom: 0;
 }
 
-.mh-200px {
-    max-height: 200px;
+@for $i from 1 through 1000{
+    .w-#{$i}px { 
+        width: #{$i}px;
+    }
 }
-
-.mh-100px {
-    max-height: 100px;
+@for $i from 1 through 1000{
+    .mw-#{$i}px { 
+       max-width: #{$i}px;
+    }
 }
-
-.mw-600px {
-    max-width: 600px;
+@for $i from 1 through 1000{
+    .min-w-#{$i}px { 
+        min-width: #{$i}px;
+    }
 }
-
-.mw-500px {
-    max-width: 500px;
+@for $i from 1 through 1000{
+    .h-#{$i}px { 
+        height: #{$i}px;
+    }
 }
-
-.mw-400px {
-    max-width: 400px;
+@for $i from 1 through 1000{
+    .mh-#{$i}px { 
+        max-height: #{$i}px;
+    }
 }
-
-.w-120px {
-    width: 120px;
+@for $i from 1 through 1000{
+    .min-h-#{$i}px { 
+        min-height: #{$i}px;
+    }
 }
 
 .ff-moana {
@@ -85,7 +92,9 @@ h1{
 .circular--portrait { 
     position: relative; 
     width: 100vw; 
-    height: 100vw; 
+    height: 100vw;
+    max-width: 400px;
+    max-height: 400px;
     overflow: hidden; 
     border-radius: 50%; 
 } 
